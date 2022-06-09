@@ -16,7 +16,7 @@ $ source venv/bin/activate
 
  We can use the following command to run the brute force attack:
 ```shell
-$ python brute.py
+$ python3 brute.py
 ```
 The program first ask for the pdf file name, and then proceeds to brute force the password. If the password is found, the program will print the password and ask if you want to save the cracked file with the password, if not, the program will simply exit.
 
